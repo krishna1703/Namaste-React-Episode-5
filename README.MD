@@ -44,7 +44,7 @@
 
 - not using key (not acceptable) <<<<<< Index as key <<<<<<<<< unique id (Best practice)
 
-# Two way to Export and import
+# Two way to Export and import 🧡
 
 - 1. Default export/import
 
@@ -56,50 +56,50 @@
 - export const App ;
 - import {component} from "path"
 
-# React only good in efficient Dom manipulation
+# React only good in efficient Dom manipulation 🧡 
 
-# lets talk about Hooks
+# lets talk about Hooks 🧡 
 
 - React Hooks just a normal javascript function
 
-# Most Important Hooks
+# Most Important Hooks 🧡
 
 - useState()
 - useEffect()
 
-# useState
+# useState 🧡
 
 - import {useState} from "react";
 - useState create a state of the component
 - const [list , setlist] = useState();
 
-# State Variable
+# State Variable 🧡
 
 - const[listOfitem] = useState([]);
 
-# Normal Js Variable
+# Normal Js Variable 🧡
 
 - let listOfitem = [];
 
-# Render
+# Render 🧡
 
-- [When ever a state variable update react will Rerender the component this is called Render ]
+- When ever a state variable update react will Rerender the component this is called Render 
 
-# lets talk about virtual Dom and Diff. Algorithm
+# lets talk about virtual Dom and Diff. Algorithm 🧡
 
 - React use Reconciliation Algorithm (React fiber)
 
 - virtual dom = component treats as an object known as React virtual dom
 
-# Diff. Algorithm
+# Diff. Algorithm 🧡
 
 - finds out the different between two virtual dom
 - React find differnce between two virtual dom and react automagically update the actual dom
 
-# Reconciliation Algorithm
+# Reconciliation Algorithm 🧡
 
 - the reconciliation algo react uses to diff one tree with another tree to determine which parts need to changed
 
-# React Fiber
+# React Fiber 🧡
 
 - fiber is the new reconciliation engine in react 16 its main goal enable incremental rendering of the virtual dom
