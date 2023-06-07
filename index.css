@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:ital,wght@0,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+
+.food-logo img {
+    width: 120px;
+    border-radius: 100%;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-item ul {
+    display: flex;
+}
+
+.nav-item ul li {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-size: x-large;
+    color: crimson;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.Search input{
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(232, 229, 235);
+    font-size: larger;
+}
+.Search button{
+    height: 40px;
+    width: 8%;
+    border-radius: 11px;
+    color: black;
+    background-color: rgb(232, 229, 235);
+    font-size: larger;
+    cursor: pointer;
+}
+.Search button:hover{
+    background-color: rgb(211, 153, 192);
+}
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.res-card {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    background-color: rgb(228, 223, 223);
+
+
+}
+
+.res-card:hover {
+    border: 1px solid rgb(142, 169, 222);
+    color: rgb(96, 19, 10);
+}
+
+
+.res-img {
+    width: 100%;
+}
+
+
+.res-feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 25px;
+    color: brown;
+}
+
+.filter-btn{
+    margin: 10px 80px;
+    padding: 2px;
+}
